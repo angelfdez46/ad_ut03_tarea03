@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args)  {
         Connection connection = conectarAMySql();
         if (connection != null) {
             System.out.println("Conexión exitosa a MySQL.");
